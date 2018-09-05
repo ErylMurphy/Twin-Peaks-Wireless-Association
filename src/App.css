@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 200px 20px 300px;
+  grid-gap: 10px;
+}
+
+.Header {
+  background-image: url('https://www.rollingstone.de/wp-content/uploads/2015/11/04/12/welcome-to-twin-peaks-656x369.jpg');
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-form {
+  display: inline-grid;
+  grid-gap: 10px;
+}
+
+.name-form {
+  display: inline;
+  display: flex;
+}
+
+.name-form :before {
+  content: "*";
+  color: red;
+  margin-left: 2px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* padding: 1rem; */
+}
