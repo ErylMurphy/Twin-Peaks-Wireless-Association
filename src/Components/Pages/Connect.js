@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-class Contact extends Component {
+class Connect extends Component {
   render() {
     return (
-      <div className="Contact">
-        <h1>Contact</h1>
+      <div className="Connect">
+        <h1>Connect</h1>
         <h3>
           We would love to hear from you. For your convenience, please get in touch with us by using the contact form below:  </h3>
         <form className="contact-form">
@@ -24,4 +24,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default Connect;

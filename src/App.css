@@ -5,9 +5,8 @@
   grid-gap: 10px;
 }
 
-.Header {
-  background-image: url('https://www.rollingstone.de/wp-content/uploads/2015/11/04/12/welcome-to-twin-peaks-656x369.jpg');
-  background-size: cover;
+.logo {
+  height: 70px;
 }
 
 nav {

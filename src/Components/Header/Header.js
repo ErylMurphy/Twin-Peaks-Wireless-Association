@@ -4,7 +4,6 @@ class Header extends Component {
   render() {
     return (
       <div className="Header">
-      <h1>Twin Peaks Wireless Association </h1>
       </div>
     );
   }
