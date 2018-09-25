@@ -1,8 +1,18 @@
-.App {
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit
+}
+
+.container {
   text-align: center;
-  display: grid;
-  grid-template-rows: 200px 20px 300px;
-  grid-gap: 10px;
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
 }
 
 .logo {
@@ -14,26 +24,18 @@ nav {
   justify-content: space-evenly;
 }
 
+.Homepage {
+  background-image: url("home-mountain.png");
+  background-size: cover;
+}
+
 .contact-form {
   display: inline-grid;
-  grid-gap: 10px;
 }
 
-.name-form {
-  display: inline;
-  display: flex;
-}
-
-.name-form :before {
-  content: "*";
-  color: red;
-  margin-left: 2px;
-}
-
-.footer {
+footer {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  /* padding: 1rem; */
 }
