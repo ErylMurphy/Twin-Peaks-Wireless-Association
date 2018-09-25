@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Connect extends Component {
+export default class Connect extends Component {
   render() {
     return (
       <div className="Connect">
@@ -23,5 +23,3 @@ class Connect extends Component {
     );
   }
 }
-
-export default Connect;

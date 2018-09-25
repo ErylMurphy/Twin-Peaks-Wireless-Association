@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import About from './About.js';
 
-class Homepage extends Component {
+export default class Homepage extends Component {
+  
   render() {
     return (
       <Router>
@@ -20,4 +21,3 @@ class Homepage extends Component {
   }
 }
 
-export default Homepage;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class About extends Component {
+export default class About extends Component {
   render() {
     return (
       <div className="about">
@@ -12,4 +12,4 @@ The Colorado Wireless Association is a non-profit professional association dedic
   }
 }
 
-export default About;
+

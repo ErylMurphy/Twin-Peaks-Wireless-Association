@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Gallery extends Component {
+export default class Gallery extends Component {
   render() {
     return (
       <div className="Gallery">
@@ -11,4 +11,3 @@ class Gallery extends Component {
   }
 }
 
-export default Gallery;

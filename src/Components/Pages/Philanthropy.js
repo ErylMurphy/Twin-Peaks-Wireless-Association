@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Philanthropy extends Component {
+export default class Philanthropy extends Component {
   render() {
     return (
       <div className="Philanthropy">
@@ -13,4 +13,3 @@ Wish for Wheels is a Denver-based nonprofit whose mission is to transform the li
   }
 }
 
-export default Philanthropy;

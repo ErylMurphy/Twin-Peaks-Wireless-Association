@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Member extends Component {
+export default class Member extends Component {
   render() {
     return (
       <div className="Member">
@@ -14,4 +14,3 @@ There is no cost to be a COWA member. Simply complete the form below to Member C
   }
 }
 
-export default Member;
