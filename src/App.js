@@ -16,6 +16,7 @@ class App extends Component {
       <Router>
       <div className="App">
       <div className="container">
+      <section className="one">
         <nav>
           <div className="nav-left">
             <Link to="/">Home</Link> 
@@ -39,7 +40,10 @@ class App extends Component {
           <Route path="/Philanthropy" exact component={Philanthropy} />
           <Route path="/Connect" exact component={Connect} />
             </div>
+            </section>
+            <section className="two">
        <Footer />
+            </section>
           </div>
       </div>
       </Router>
