@@ -17,15 +17,19 @@ class App extends Component {
       <div className="App">
       <div className="container">
         <nav>
+          <div className="nav-left">
             <Link to="/">Home</Link> 
             <Link to="/Events">Events</Link> 
             <Link to="/Gallery">Gallery</Link>
+              </div>
             <a href="/">
                 <img className="logo" src="logo.png"/>
             </a>
+            <div className="nav-right">
             <Link to="/About">About</Link>
             <Link to="/Philanthropy">Philanthropy</Link>
             <Link to="/Connect">Connect</Link>
+              </div>
         </nav>
             <div className="main">
           <Route path="/" exact component={Homepage} />
