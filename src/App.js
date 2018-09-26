@@ -27,17 +27,15 @@ class App extends Component {
             <Link to="/Philanthropy">Philanthropy</Link>
             <Link to="/Connect">Connect</Link>
         </nav>
-        <main>
+            <div className="main">
           <Route path="/" exact component={Homepage} />
           <Route path="/Events" exact component={Events} />
           <Route path="/Gallery" exact component={Gallery} />
           <Route path="/About" exact component={About} />
           <Route path="/Philanthropy" exact component={Philanthropy} />
           <Route path="/Connect" exact component={Connect} />
-            </main>
-            <footer>
+            </div>
        <Footer />
-          </footer>
           </div>
       </div>
       </Router>
