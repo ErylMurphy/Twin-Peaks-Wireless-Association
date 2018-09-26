@@ -5,7 +5,7 @@ export default class Gallery extends Component {
     return (
       <div className="Gallery">
         <h1>Gallery</h1>
-        <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/05/16/14/twin-peaks.jpg"/>
+        <img className="mySlides" src="https://www.dailyscandinavian.com/wp-content/uploads/2016/12/231216-tomten.jpg"/>
       </div>
     );
   }
