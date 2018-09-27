@@ -1,4 +1,5 @@
 /* colors: turquoise 3cc194, grey 373543 */
+
 html {
   margin: 0px;
   height: 100%;
@@ -153,7 +154,7 @@ a {
 }
 
 .Events {
-  background-image: url("background-1.png");
+  background-image: url("background-2.webp");
   background-size: cover;
   height: 565px;
   font-family: 'Roboto', sans-serif;
@@ -161,6 +162,33 @@ a {
   text-transform: uppercase;
   color: white;
   letter-spacing: .32em;
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+.Gallery {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #373543;
+  letter-spacing: .32em;
+  font-size: 28px;
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
 }
 
 /* .contact-form {
@@ -216,6 +244,20 @@ a {
   justify-content: space-evenly;
 }
 
+.Philanthropy {
+  background-image: url("background-3.webp");
+  background-size: cover;
+  height: 565px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+  letter-spacing: .32em;
+}
+
 /* FOOTER */
 
 .two {
@@ -260,4 +302,14 @@ a {
   height: 200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.copyright {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 8;
+  color: white;
+  position: absolute;
+  width: 100%;
+  bottom: -80%;
 }
