@@ -10,10 +10,9 @@ export default class About extends Component {
           The Great Northern Wireless Association is a non-profit professional association dedicated to being the voice of the wireless industry in the Northern America. Our members represent wireless carriers, tower companies, network developers, and vendors supporting the industry. Our Mission is to promote the creative talent and energy of our membership through education and relationship building within the wireless industry and with our North American communities.  </h3>
         <h2 className="board-title">Board of Trustees</h2>
         <ul className="board-members">
+          <li>Jeff Peters</li>
           <li>Tom Murphy</li>
-          <li>Tom Bombadil</li>
-          <li>Tom Jones</li>
-          <li>Tom Ten</li>
+          <li>Tyler Peters</li>
         </ul>
       </div>
     );
