@@ -5,9 +5,8 @@ export default class Philanthropy extends Component {
     return (
       <div className="Philanthropy">
       <h1>Philanthropy</h1>
-        <h3>
-"Does D of E count?" - Tom Murphy, 2018
-  </h3>
+        <a href="https://secure2.convio.net/nrcst/site/SPageServer/;jsessionid=00000000.app274a?NONCE_TOKEN=AF6F724FF1F07D39FF4B079AB0071207&pagename=pwna_donate"> <img className="pwna"src="http://blog.nativepartnership.org/wp-content/uploads/2015/08/PWNA_Logo_PMS.jpg"/></a>
+        <a href="https://donate.nationalparks.org/page/10780/donate/1?gclid=CjwKCAjworfdBRA7EiwAKX9HeNjGzIhFa-68u2Nal_zFqitCbHpz7HY71-Kbqx0rDu6pZ_3l6TW7eRoCqCAQAvD_BwE"> <img className="pwna" src="http://photos.prnewswire.com/prnfull/20140324/DC89075LOGO?max=200"/></a>
       </div>
     );
   }

@@ -250,9 +250,6 @@ a {
 }
 
 .Philanthropy {
-  background-image: url("background-3.webp");
-  background-size: cover;
-  height: 565px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -260,8 +257,16 @@ a {
   flex-direction: column;
   justify-content: space-evenly;
   color: white;
+  background-color: #373543;
+  height: 565px;
   letter-spacing: .32em;
 }
+
+.pwna {
+  width: 300px;
+  border-radius: 10px;
+}
+
 .Connect {
   background-image: url("Connect-img.webp");
   background-size: cover;
@@ -313,7 +318,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 50%;
+  width: 75%;
   padding-bottom: 75px;
 }
 
