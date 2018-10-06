@@ -12,7 +12,8 @@ export default class Footer extends Component {
         <a href="/Connect">CONNECT</a>
         </div>
         <img className="footer-logo" src="logo.png" />
-        <p className="copyright"> &copy; 2018 GNWA </p>
+        <p className="copyright"> &copy; 2018 GNWA <img className="fbicon" src="FB Icon.png"/></p>
+
       </div>
     );
   }

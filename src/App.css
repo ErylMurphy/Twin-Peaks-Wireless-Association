@@ -262,6 +262,33 @@ a {
   color: white;
   letter-spacing: .32em;
 }
+.Connect {
+  background-image: url("Connect-img.webp");
+  background-size: cover;
+  height: 565px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  color: white;
+  letter-spacing: .32em;
+}
+
+.connect-h3 {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 30px;
+  padding-bottom: 7px;
+  padding-top: 40px;
+  font-weight: 500;
+}
+
+.Connect a {
+  font-size: 20px;
+  color: white;
+}
 
 /* FOOTER */
 
