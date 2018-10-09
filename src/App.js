@@ -24,7 +24,7 @@ class App extends Component {
             <Link to="/Gallery">Gallery</Link>
               </div>
             <a href="/">
-                <img className="logo" src="logo.png"/>
+                <img className="logo" src="navlogo.png"/>
             </a>
             <div className="nav-right">
             <Link to="/About">About</Link>
