@@ -10,17 +10,17 @@ export default class About extends Component {
           The Great Northern Wireless Association is a blahblahblahblah.</h3>
         <h2 className="board-title">Board of Trustees</h2>
         <ul className="board-members">
-        <div className="president">
-          <li>Jeff Peters</li>
+          <div className="president">
+            <li>Jeff Peters</li>
             <li className="trustee-title">President</li>
           </div>
           <div className="treasurer">
-          <li>Tom Murphy</li>
+            <li>Tom Murphy</li>
             <li className="trustee-title">Treasurer</li>
           </div>
           <div className="director">
-          <li>Tyler Peters</li>
-          <li className="trustee-title">Director</li>
+            <li>Tyler Peters</li>
+            <li className="trustee-title">Director</li>
           </div>
         </ul>
       </div>

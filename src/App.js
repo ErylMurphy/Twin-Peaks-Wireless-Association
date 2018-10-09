@@ -14,44 +14,44 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <div className="App">
-      <div className="container">
-      <section className="one">
-        <nav>
-          <div className="nav-left">
-            <Link to="/">Home</Link> 
-            <Link to="/Events">Events</Link> 
-            <Link to="/Gallery">Gallery</Link>
+        <div className="App">
+          <div className="container">
+            <section className="one">
+              <nav>
+                <div className="nav-left">
+                  <Link to="/">Home</Link>
+                  <Link to="/Events">Events</Link>
+                  <Link to="/Gallery">Gallery</Link>
+                </div>
+                <a href="/">
+                  <img className="logo" src="navlogo.png" />
+                </a>
+                <div className="nav-right">
+                  <Link to="/About">About</Link>
+                  <Link to="/Philanthropy">Philanthropy</Link>
+                  <Link to="/Connect">Connect</Link>
+                  <div className="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                  <div className="cross">X</div>
+                </div>
+              </nav>
+              <div className="main">
+                <Route path="/" exact component={Homepage} />
+                <Route path="/Events" exact component={Events} />
+                <Route path="/Gallery" exact component={Gallery} />
+                <Route path="/About" exact component={About} />
+                <Route path="/Philanthropy" exact component={Philanthropy} />
+                <Route path="/Connect" exact component={Connect} />
               </div>
-            <a href="/">
-                <img className="logo" src="navlogo.png"/>
-            </a>
-            <div className="nav-right">
-            <Link to="/About">About</Link>
-            <Link to="/Philanthropy">Philanthropy</Link>
-            <Link to="/Connect">Connect</Link>
-            <div className="burger">
-            <div></div>
-            <div></div>
-            <div></div>
-            </div>        
-            <div className="cross">X</div>
-              </div>
-        </nav>
-            <div className="main">
-          <Route path="/" exact component={Homepage} />
-          <Route path="/Events" exact component={Events} />
-          <Route path="/Gallery" exact component={Gallery} />
-          <Route path="/About" exact component={About} />
-          <Route path="/Philanthropy" exact component={Philanthropy} />
-          <Route path="/Connect" exact component={Connect} />
-            </div>
             </section>
             <section className="two">
-       <Footer />
+              <Footer />
             </section>
           </div>
-      </div>
+        </div>
       </Router>
     );
   }

@@ -290,7 +290,6 @@ a {
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
   color: white;
   letter-spacing: .32em;
 }
@@ -314,7 +313,6 @@ a {
 .two {
   height: 100vh;
   background: #3cc194;
-  /* opacity: 0.5; */
 }
 
 .footer {
