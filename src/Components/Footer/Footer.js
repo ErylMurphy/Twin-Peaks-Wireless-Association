@@ -13,7 +13,7 @@ export default class Footer extends Component {
           <a><img className="fbicon" alt="hello" src="fbicon.png" /></a>
           <a><img className="linkedinicon" alt="hello" src="linkedinicon.png" /></a>
         </div>
-        <img className="footer-logo" src="logo.png" />
+        <img className="footer-logo" src="logofooter.png" />
         <p className="copyright"> &copy; 2018 GNWA </p>
       </div>
     );
