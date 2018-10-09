@@ -30,6 +30,12 @@ class App extends Component {
             <Link to="/About">About</Link>
             <Link to="/Philanthropy">Philanthropy</Link>
             <Link to="/Connect">Connect</Link>
+            <div className="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>        
+            <div className="cross">X</div>
               </div>
         </nav>
             <div className="main">

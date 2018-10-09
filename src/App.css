@@ -69,6 +69,20 @@ nav {
   opacity: 0.5;
 }
 
+.burger div {
+  height: 3px;
+  width: 20px;
+  background-color: #373543;
+  display: block;
+  margin: 2px;
+}
+
+.cross {
+  color: #373543;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .logo {
   height: 100px;
   margin-left: auto;
