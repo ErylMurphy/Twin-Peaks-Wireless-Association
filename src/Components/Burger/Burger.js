@@ -21,12 +21,12 @@ class Burger extends Component {
           <span></span>
           <Router>
             <ul id="burger">
-              <a href="/">HOME</a>
-              <a href="/Events">EVENTS</a>
-              <a href="/Gallery">GALLERY</a>
-              <a href="/About">ABOUT US</a>
-              <a href="/Philanthropy">PHILANTHROPY</a>
-              <a href="/Connect">CONNECT</a>
+              <a href="/"><li>HOME</li></a>
+              <a href="/Events"><li>EVENTS</li></a>
+              <a href="/Gallery"><li>GALLERY</li></a>
+              <a href="/About">ABOUT <li>US</li></a>
+              <a href="/Philanthropy"><li>PHILANTHROPY</li></a>
+              <a href="/Connect"><li>CONNECT</li></a>
             </ul>
           </Router>
         </div>
