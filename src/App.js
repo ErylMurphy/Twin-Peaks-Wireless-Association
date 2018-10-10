@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 import Header from './Components/Header/Header.js';
+import Burger from './Components/Burger/Burger.js';
 import Homepage from './Components/Pages/Homepage.js';
 import Events from './Components/Pages/Events.js';
 import Philanthropy from './Components/Pages/Philanthropy.js';
@@ -19,6 +20,7 @@ class App extends Component {
             <section className="one">
               <nav>
                 <div className="nav-left">
+                <Burger />
                   <Link to="/">Home</Link>
                   <Link to="/Events">Events</Link>
                   <Link to="/Gallery">Gallery</Link>
@@ -30,11 +32,6 @@ class App extends Component {
                   <Link to="/About">About</Link>
                   <Link to="/Philanthropy">Philanthropy</Link>
                   <Link to="/Connect">Connect</Link>
-                  <div className="burger">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                  </div>
                 </div>
               </nav>
               <div className="main">
