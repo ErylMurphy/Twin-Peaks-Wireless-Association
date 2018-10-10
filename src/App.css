@@ -78,13 +78,6 @@ nav {
   visibility: hidden;
 }
 
-.cross {
-  color: #373543;
-  font-size: 18px;
-  font-weight: 700;
-  visibility: hidden;
-}
-
 .logo {
   height: 100px;
   margin-left: auto;
@@ -363,4 +356,10 @@ a {
   position: absolute;
   width: 100%;
   bottom: -80%;
+}
+
+@media (max-width: 599px) {
+  .burger div {
+    visibility: visible;
+  }
 }

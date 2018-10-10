@@ -35,7 +35,6 @@ class App extends Component {
                     <div></div>
                     <div></div>
                   </div>
-                  <div className="cross">X</div>
                 </div>
               </nav>
               <div className="main">
