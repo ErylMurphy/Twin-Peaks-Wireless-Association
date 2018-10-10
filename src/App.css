@@ -69,7 +69,6 @@ nav {
   opacity: 0.5;
 }
 
-
 .logo {
   height: 100px;
   margin-left: auto;
@@ -350,15 +349,6 @@ a {
   bottom: -80%;
 }
 
-@media (max-width: 599px) {
-  .burger div {
-    visibility: visible;
-  }
-}
-
-.burger div {
-  visibility: hidden;
-}
 /* li {
   
   display: block;
@@ -372,6 +362,7 @@ a {
 } */
 
 #burgerToggle {
+  visibility: hidden;
   display: block;
   position: relative;
   z-index: 1;
@@ -446,14 +437,14 @@ a {
 #burger {
   display: block;
 }
-/* 
-#burger li {
-  display: block;
-  padding: 10px 0;
-  font-size: 22px;
-  text-decoration: none;
-} */
 
 #burgerToggle input:checked~ul {
   transform: none;
+}
+
+@media (max-width: 599px) {
+  #burgerToggle {
+    visibility: visible;
+  }
+  
 }
