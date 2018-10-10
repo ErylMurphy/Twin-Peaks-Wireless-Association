@@ -446,5 +446,11 @@ a {
   #burgerToggle {
     visibility: visible;
   }
-  
+  .nav-left {
+    visibility: hidden;
+  }
+  .nav-right {
+    visibility: hidden;
+  }
+
 }
