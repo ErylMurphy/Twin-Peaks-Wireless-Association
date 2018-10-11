@@ -349,18 +349,6 @@ a {
   bottom: -80%;
 }
 
-/* li {
-  
-  display: block;
-  color: #232323;
-  transition: color 0.3s ease;
-  text-decoration: none;
-} */
-
-/* li:hover {
-  color: tomato;
-} */
-
 #burgerToggle {
   visibility: hidden;
   display: block;
@@ -368,6 +356,7 @@ a {
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
+  color: white;
 }
 
 #burgerToggle input {
@@ -425,7 +414,8 @@ a {
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  list-style-type: none;
+  background-color: #373543;
+  color: white;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
   transform-origin: 0% 0%;
@@ -452,5 +442,4 @@ a {
   .nav-right {
     visibility: hidden;
   }
-
 }
