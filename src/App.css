@@ -23,6 +23,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  max-width: 18000px;
 }
 
 .one {
@@ -440,7 +441,7 @@ a {
   transform: none;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 730px) {
   #burgerToggle {
     display: block;
     visibility: visible;
