@@ -413,7 +413,7 @@ a {
 
 #burger {
   position: absolute;
-  width: 400px;
+  width: 300px;
   /* height: 500px; */
   display: flex;
   margin: -100px 0 0 -50px;
@@ -439,6 +439,40 @@ a {
 
 #burgerToggle input:checked~ul {
   transform: none;
+}
+
+@media (max-width: 320px) {
+  .Homepage h1 {
+    font-size: 20px;
+  }
+  .about-button {
+    width: 45%;
+    margin-bottom: 100px;
+    padding: 10px;
+  }
+  .about h1 {
+    display: none;
+  }
+  .about .mission-statement-text{
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .about .board-title {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    margin-top: -50px;
+  }
+  .about ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+  }
+  .about .trustee-title {
+    font-size: 8px;
+  }
 }
 
 @media (max-width: 730px) {
