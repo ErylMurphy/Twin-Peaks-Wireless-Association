@@ -230,7 +230,6 @@ a {
   margin-right: 60px;
   text-align: left;
   font-size: 16px;
-
 }
 
 .board-title {
@@ -352,8 +351,8 @@ a {
 }
 
 #burgerToggle {
-  visibility: hidden;
-  display: block;
+  /* visibility: hidden; */
+  display: none;
   position: relative;
   z-index: 1;
   -webkit-user-select: none;
@@ -412,7 +411,9 @@ a {
 
 #burger {
   position: absolute;
-  width: 300px;
+  width: 400px;
+  height: 500px;
+  display: flex;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -426,6 +427,10 @@ a {
   text-decoration: none;
 }
 
+#burger li {
+  color: white;
+}
+
 #burger {
   display: block;
 }
@@ -436,6 +441,7 @@ a {
 
 @media (max-width: 599px) {
   #burgerToggle {
+    display: block;
     visibility: visible;
   }
   .nav-left {

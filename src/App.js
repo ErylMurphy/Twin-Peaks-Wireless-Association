@@ -20,7 +20,7 @@ class App extends Component {
             <section className="one">
               <nav>
                 <div className="nav-left">
-                {/* <Burger /> */}
+                <Burger />
                   <Link to="/">Home</Link>
                   <Link to="/Events">Events</Link>
                   <Link to="/Gallery">Gallery</Link>
