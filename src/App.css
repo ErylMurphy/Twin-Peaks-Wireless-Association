@@ -514,3 +514,13 @@ a {
     display: none;
   }
 }
+
+@media (min-width: 375px) {
+  .Homepage h1 {
+    font-size: 30px;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
