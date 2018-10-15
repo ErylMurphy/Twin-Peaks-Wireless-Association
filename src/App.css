@@ -412,7 +412,7 @@ a {
 #burger {
   position: absolute;
   width: 400px;
-  height: 500px;
+  /* height: 500px; */
   display: flex;
   margin: -100px 0 0 -50px;
   padding: 50px;
@@ -449,5 +449,11 @@ a {
   }
   .nav-right {
     visibility: hidden;
+  }
+  #burger {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 }
