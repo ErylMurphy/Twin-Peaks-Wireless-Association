@@ -7,7 +7,7 @@ export default class About extends Component {
         <h1>About Us</h1>
         {/* <h2 className="mission-statement-title">Mission Statement</h2> */}
         <h3 className="mission-statement-text">
-          The Great Northern Wireless Association is a blahblahblahblah.</h3>
+          The Great Northern Wireless Association is a a non-profit professional association dedicated to being the voice of the wireless industry in the North East.</h3>
         <h2 className="board-title">Board of Trustees</h2>
         <ul className="board-members">
           <div className="president">

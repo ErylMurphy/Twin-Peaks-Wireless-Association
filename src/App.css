@@ -222,18 +222,20 @@ a {
 
 .mission-statement-title {
   text-align: left;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 .mission-statement-text {
-  margin-left: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
   text-align: left;
   font-size: 16px;
+
 }
 
 .board-title {
   text-align: left;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 .board-members {
