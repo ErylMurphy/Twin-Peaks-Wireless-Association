@@ -157,6 +157,7 @@ a {
   background-image: url("https://i.imgur.com/xmHOpAU.jpg");
   background-size: cover;
   height: 565px;
+  padding: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -444,16 +445,23 @@ a {
     display: block;
     visibility: visible;
   }
-  .nav-left {
-    visibility: hidden;
-  }
-  .nav-right {
-    visibility: hidden;
-  }
   #burger {
     font-size: 1.5em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  }
+  nav {
+    align-items: center;
+  }
+  .logo {
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .nav-left {
+    display: none;
+  }
+  .nav-right {
+    display: none;
   }
 }

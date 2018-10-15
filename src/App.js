@@ -19,8 +19,8 @@ class App extends Component {
           <div className="container">
             <section className="one">
               <nav>
-                <div className="nav-left">
                 <Burger />
+                <div className="nav-left">
                   <Link to="/">Home</Link>
                   <Link to="/Events">Events</Link>
                   <Link to="/Gallery">Gallery</Link>
