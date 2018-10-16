@@ -312,6 +312,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 0;
 }
 
 .footer-nav {
@@ -478,7 +479,7 @@ a {
   }
 }
 
-@media (max-width: 320px) and (orientation: landscape) {
+@media only screen and (max-width: 320px) and (orientation: landscape) {
   .footer-logo {
     visibility: hidden;
   }
@@ -494,7 +495,7 @@ a {
   }
 }
 
-@media (max-width: 730px) {
+@media only screen and (max-width: 730px) {
   #burgerToggle {
     display: block;
     visibility: visible;
@@ -515,15 +516,4 @@ a {
   }
 }
 
-@media (max-width: 375px) {
-  .Homepage h1 {
-    font-size: 30px;
-  }
-  .footer-nav {
-    display: flex;
-    flex-direction: column;
-  }
-  .one {
-    height: 80vh;
-  }
-}
+
