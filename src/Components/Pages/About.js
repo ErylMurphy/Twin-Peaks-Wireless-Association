@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class About extends Component {
   render() {
     return (
-      <div className="about">
+      <div className="About">
         <h1>About Us</h1>
         <h3 className="mission-statement-text">
           The Great Northern Wireless Association is a non-profit professional association dedicated to being the voice of the wireless industry in the North East.</h3>

@@ -1,36 +1,19 @@
-/* colors: turquoise 3cc194, grey 373543 */
-
-html {
-  margin: 0px;
-  height: 100%;
-  width: 100%;
-}
-
-body {
-  margin: 0px;
-  min-height: 100%;
-  width: 100%;
-  padding: 0;
-  display: grid;
-  text-align: center;
-  grid-template-rows: 50px 500px 30px;
-  background: #f4f7f6;
-}
-
 .container {
+  padding: 0;
+  text-align: center;
+  background: #f4f7f6;
   position: absolute;
   width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
+  margin: 0px;
+  min-height: 100%;
   max-width: 18000px;
-}
-
-.one {
-  height: 100vh;
+  display: grid;
+  grid-template-areas: "nav" "main" "footer";
+  grid-template-rows: 150px 1fr 50px;
 }
 
 nav {
+  grid-area: nav;
   text-transform: uppercase;
   display: flex;
   padding: 10px;
@@ -85,9 +68,9 @@ a {
   letter-spacing: .14em;
 }
 
-.main {
-  grid-area: m;
-  height: 450px;
+main {
+  grid-area: main;
+  background-size: cover;
   background: #f4f7f6;
 }
 
@@ -103,7 +86,7 @@ a {
 .Homepage {
   background-image: url("https://i.imgur.com/45S4BNr.jpg");
   background-size: cover;
-  height: 565px;
+  height: 100%;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -157,10 +140,8 @@ a {
 .Events {
   background-image: url("https://i.imgur.com/xmHOpAU.jpg");
   background-size: cover;
-  height: 565px;
-  padding: 20px;
+  height: 95%;
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   text-transform: uppercase;
   color: white;
   letter-spacing: .32em;
@@ -178,6 +159,7 @@ a {
 .Gallery {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  height: 100%;
   text-transform: uppercase;
   color: #373543;
   letter-spacing: .32em;
@@ -193,16 +175,10 @@ a {
   animation: fadein 2s;
 }
 
-/* .contact-form {
-  display: inline-grid;
-} */
-
-/* ABOUT */
-
-.about {
+.About {
   background-image: url("https://i.imgur.com/45S4BNr.jpg");
   background-size: cover;
-  height: 565px;
+  height: 100%;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -255,13 +231,13 @@ a {
 .Philanthropy {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  height: 100%;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   color: white;
   background-color: #373543;
-  height: 565px;
   letter-spacing: .32em;
 }
 
@@ -273,7 +249,7 @@ a {
 .Connect {
   background-image: url("https://i.imgur.com/abQ4UvT.jpg");
   background-size: cover;
-  height: 565px;
+  height: 100%;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -299,32 +275,17 @@ a {
 
 /* FOOTER */
 
-.two {
-  height: 100vh;
-  background: #3cc194;
-}
-
-.footer {
-  position: absolute;
-  bottom: 20%;
+footer {
+  grid-area: footer;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 0;
 }
 
 .footer-nav {
-  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 75%;
-  padding-bottom: 75px;
-}
-
-.footer-nav a {
-  color: white;
+  align-items: center;
+  color: #373543;
 }
 
 .footer-nav a:hover {
@@ -336,20 +297,10 @@ a {
   opacity: 0.5;
 }
 
-.footer-logo {
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .copyright {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 8;
-  color: white;
-  position: absolute;
-  width: 100%;
-  bottom: -80%;
 }
 
 #burgerToggle {
@@ -514,5 +465,3 @@ a {
     display: none;
   }
 }
-
-
