@@ -305,7 +305,6 @@ a {
 }
 
 .footer {
-  grid-area: f;
   position: absolute;
   bottom: 20%;
   width: 100%;
